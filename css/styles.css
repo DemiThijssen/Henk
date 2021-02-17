@@ -2,19 +2,59 @@
 /* CSS Document */
 
 p{
-	font-family: 'Satisfy', cursive;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.header {
+	font-family: 'Raleway', sans-serif;
+	
 }
 
 body{
-	background-color: antiquewhite;
+	background-image: url("../images/flower2.jpg"); 
+	width: 900px;
+	height: 264px;
+  	position: relative;
+	
 } 
 
-.introduction {
-	color: #904700 
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: 700px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #77DA94;
 }
 
-.hisquestion {
-    font-style: oblique;
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #F2F2F2;
+  color: black;
+}
+	
+.mytext {
+	padding-top: 90px;
+	margin-left: 25px;
+	margin-right: 25px; 
+}
+
+.introduction {
+	color: #000000;
+	padding-bottom: 50px;
 }
 
 .mycontainer {
@@ -27,5 +67,6 @@ body{
 }
 
 #important {
-	color: #FF6827;
+    color: #FF6827;
+    font-style: italic;	
 }
