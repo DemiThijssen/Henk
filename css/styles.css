@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-* { margin: 0; padding: 0; border: 0; font-size: 100%; }
 p{
 	font-family: 'Raleway', sans-serif;
 	
@@ -13,6 +12,7 @@ p{
 }
 
 body{
+	margin: 0; padding: 0; border: 0; font-size: 100%; 
 	background-image: url("../images/flower2.jpg"); 
 	width: 900px;
 	height: 264px;
